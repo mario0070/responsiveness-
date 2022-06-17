@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding: 2em;
+    margin-left: auto;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    height: 20px;
+}
+main{
+    width:7em auto;
+    margin: auto;
+    text-align: center;
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.content{
+    margin-top: 1em;
+}
+.content button{
+    padding: 1em;border: none;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: rgb(221, 218, 218);
+}
+.top{
+    padding: 0em;
+    margin-left: 2em;
+}
+.buttom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.right{
+    padding: 1em;
+}
+.left a{
+    margin: 1em;
+}
+.right a{
+    margin: 1em;
+}
+a:link{
+    color: brown;
+}
+a:hover{
+    background-color: rgba(0, 255, 136, 0.648);
+    color: aliceblue;
+    text-decoration: dotted;
+}
+a[class="me"]{
+    margin-left: 2em;
+}
+a:active{
+    font-size: larger;
+}
+input:focus{
+    background-color: rgb(240, 129, 25);
+}
+:root{
+    background: -webkit-radial-gradient(right top,purple,rgb(241, 234, 234),purple,transparent);
+}
+input[type="text"]:enabled{
+    background-color: rgb(247, 182, 2);
+}

@@ -1,0 +1,89 @@
+nav{
+    margin-left: auto;
+    padding: 1em;
+    text-decoration: underline;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color: bisque;
+}
+body{
+    padding: auto;
+    background-color: rgb(19, 16, 16);
+}
+img{
+    height: 500px;
+    width: 1000px;
+    margin-left: 20%;
+}
+main{
+    padding: 2em;
+    background-color: bisque;
+}
+input{
+    padding: 1em;
+    margin: 2em;
+    font-size: larger;
+    border-radius: 30px;
+}
+input:hover{
+    background-color: chartreuse;
+    text-decoration: wavy;
+}
+p:hover{
+    background-color: chartreuse;
+    text-decoration: underline;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: bisque;
+    font-size: larger;
+}
+a{
+    margin: 2%;
+    color: bisque;
+    font-size: larger;
+}
+a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+h1,h2{
+    text-align: center;
+}
+input:focus{
+    background-color: aqua;
+}
+[class]{
+    color: bisque;
+    display: flex;
+    font-size: larger;
+    text-decoration: dotted;
+    justify-content: space-around;
+    background-color: black;
+}
+.you{
+    border: 2px solid bisque;
+    padding: 2em;
+    font-size: larger;
+    margin: 2em;
+}
+.we{
+    color: bisque;
+    font-size: larger;
+    margin-top: 1em;
+}
+.them{
+    color: bisque;
+    font-size: larger;
+    margin-top: 1em;
+}
+:root{
+    background-color: rgb(70, 25, 233);
+}
+.num::before{
+    content:"\2706";
+}
